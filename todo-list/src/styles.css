@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+aside {
+    background-color: #4B4B4B;
+    width: 20vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+aside .logo {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+aside nav {
+    margin: 50px auto;
+}
+
+aside nav ul {
+    list-style: none;
+    font-size: 24px;
+}
+
+aside nav ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+aside nav ul li a i {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    background-color: #DEDEDE;
+    width: 80vw;
+    height: calc(100vh - 30px);
+    color: #000000;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 65vw;
+    height: 75vh;
+    font-size: 20px;
+    background-color: #CACACA;
+}
+
+.todo-form input {
+    font-size: 18px;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+.todo-form textarea {
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    overflow-y: hidden;
+}
+
+textarea::placeholder {
+    color: #000000;
+}
+
+.todo-form .add-btn {
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #003C88;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    position: fixed;
+    height: 30px;
+    width: calc(100vw - 20vw);
+    bottom: 0;
+    right: 0;
+    background-color: #4B4B4B;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    color: #DADADA;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: palegreen;
+}
+
+.todo-table {
+    margin: auto;
+    width: 1000px;
+    height: auto;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    background-color: #CACACA;
+    text-align: center;
+}
+
+.todo-table th {
+    background-color: #70C469;
+    color: #000000;
+    width: 250px;
+    padding: 10px 0;
+}
+
+.todo-table td {
+    background-color: #F0F0F0;
+    color: #000000;
+    width: 250px;
+    padding: 10px 0;
+}
+
+.remove-btn {
+    border: none;
+    background: none;
+}
+
+.remove-btn i {
+    font-size: 25px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form>
+    <input id="email" name="email" type="email" aria-label="Email" placeholder="Email" required />
+    <input name="country" type="text" aria-label="Country" placeholder="Country" required />
+    <input name="zip-code" type="number" aria-label="Zip Code" placeholder="Zip Code" required />
+    <input id="password" name="password" type="password" minlength="8" maxlength="32" aria-label="Password" placeholder="Password" required />
+    <input id="password-confirm" name="password-confirm" type="password" minlength="8" maxlength="32" aria-label="Password Confirm" placeholder="Password Confirm" required />
+    <button>Gönder</button>
+    <span id="error"></span>
+</form>
+<script rel="script" src="script.js"></script>
+</body>
+</html>

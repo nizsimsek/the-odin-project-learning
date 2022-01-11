@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.calculator {
+    border: 2px solid black;
+}
+
+#screen {
+    width: 95%;
+    height: 100px;
+    font-size: 72px;
+    text-align: right;
+}
+
+.btn button {
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}

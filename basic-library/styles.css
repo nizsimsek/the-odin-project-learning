@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Code Pro", sans-serif;
+}
+
+.container header {
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    line-height: 100px;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+header .add-book {
+    font-size: 30px;
+    font-weight: bold;
+    background: none;
+    border: 4px solid;
+    height: 60px;
+    width: 250px;
+    border-radius: 30px;
+    cursor: crosshair;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    width: 400px;
+    height: 40px;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+input:hover {
+    cursor: text;
+}
+
+.inputs button {
+    background-color: limegreen;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid;
+    margin: 10px 30px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    cursor: crosshair;
+}
+
+.books {
+    height: 82.5vh;
+}
+
+.books table {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 80vw;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table td {
+    height: 50px;
+    width: 400px;
+}
+
+.remove-book {
+    width: 100px;
+    height: 50px;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    text-align: center;
+    background-color: #cacaca;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    font-size: 20px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

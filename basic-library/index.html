@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Library App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo">
+            Basic Library
+        </div>
+        <button class="add-book" onclick="showModal()">Add Book</button>
+    </header>
+    <div class="content">
+        <div id="add-book-modal" class="modal">
+            <div id="addBookForm" class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Add Book</h2>
+                <div class="inputs">
+                    <input id="book-name" required type="text" aria-label="Book Name" placeholder="Book Name"/>
+                    <input id="book-author" required type="text" aria-label="Book Author" placeholder="Book Author"/>
+                    <input id="book-publisher" required type="text" aria-label="Book Publisher"
+                           placeholder="Book Publisher"/>
+                    <input id="book-page" required type="number" aria-label="Book Page" placeholder="Book Page"/>
+                    <button onclick="addBook()">Add Book</button>
+                </div>
+            </div>
+        </div>
+        <div class="books">
+            <table id="book-list">
+                <tr>
+                    <td>Name</td>
+                    <td>Author</td>
+                    <td>Publisher</td>
+                    <td>Page</td>
+                    <td>Remove ?</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script rel="script" src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.options button {
+    font-size: 20px;
+    background-color: skyblue;
+    width: 100px;
+    height: 50px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#number-input {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.container {
+    border: 2px solid black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+    width: 500px;
+    height: 500px;
+}
+
+.container div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+}

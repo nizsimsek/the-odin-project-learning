@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-weight: bold;
+}
+
+.user-selection {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: red;
+    height: 200px;
+}
+
+button {
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#user-selected {
+    text-align: center;
+    line-height: 200px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: green;
+    height: 200px;
+}
+
+#result {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: lightblue;
+    line-height: 200px;
+    height: 200px;
+}
+
+#winner {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: yellow;
+    line-height: 200px;
+    height: 200px;
+}

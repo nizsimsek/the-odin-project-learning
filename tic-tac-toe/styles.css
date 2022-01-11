@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choices {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+    height: 50px;
+}
+
+.table {
+    height: 450px;
+    width: 450px;
+    display: grid;
+    grid-gap: 0;
+}
+
+.table button {
+    font-size: 100px;
+    font-weight: bold;
+    border: 1px gray solid;
+    height: 150px;
+    padding: 0;
+}
+
+.table button:hover {
+    background-color: palegreen;
+}
+
+.winner {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+    height: 50px;
+}
+
+.error {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+    height: 50px;
+}

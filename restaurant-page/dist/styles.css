@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 70px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 70px;
+    letter-spacing: 20px;
+    color: #17161C;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    line-height: 70px;
+}
+
+nav ul li {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 20px;
+    letter-spacing: 4px;
+}
+
+nav ul li a {
+    color: #17161C;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.slider img {
+    margin: auto;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    padding: 50px 150px 100px;
+    color: #353242;
+}
+
+.about h2 {
+    margin: 20px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 22px;
+    word-spacing: 5px;
+    text-align: center;
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-content: center;
+    background-color: #17161C;
+    padding: 40px;
+}
+
+.menu img {
+    margin: auto;
+    height: auto;
+    width: 60%;
+}
+
+.contact {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+
+.contact p {
+    font-size: 24px;
+    padding: 20px 200px;
+    color: #17161C;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #17161C;
+}
+
+footer {
+    margin-top: -5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #17161C;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    color: #FEFEFE;
+    position: fixed;
+    bottom:0;
+}
+
+footer a {
+    color: #C5C5C5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F7B42F;
+    text-decoration: underline;
+}
+
+.fas {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #17161C;
+    color: #FFFFFF;
+    border-radius: 48px;
+}
+
+.fas:hover {
+    background-color: #F7B42F;
+}
